@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lasse von Pfeil</title>
+</head>
+<body>
+    <div class="header1">
+        <h1 id="tophead">Hi,</h1>
+        <h1>Ich bin Lasse von Pfeil</h1>
+    </div>
+
+    <div class="header2">
+        <h2 class="animated-text-header">Ich bin ein </h2>
+        <div class="wrapper">
+            <h2 class="animated-text1">Software Entwickler</h2>
+        </div>
+    </div>
+
+    <a href="https://www.instagram.com/lasse_17_11/">
+        <h3 class="link1">Instagram</h3>
+    </a>
+    <a href="https://twitter.com/lasse_17_11">
+        <h3 class="link2">Twitter</h3>
+    </a>
+    <a href="https://github.com/Lasse1711">
+        <h3 class="link2">GitHub</h3>
+    </a>
+
+    <div class="langs">
+        <h2 class="langsheader1">Programming languages:</h2>
+        <h3 class="lang1">Python</h3>
+        <h3 class="lang2">Swift (SwiftUI)</h3>
+        <h3 class="lang3">Ruby</h3>
+        <h3 class="lang4">GoLang</h3>
+    </div>
+
+    <div class="projects">
+        <h2 class="projectheader1">Meine Projekte:</h2>
+        <h3 class="project1">Ruby Portscanner</h3>
+    </div>
+</body>
+
+<style>
+    body {
+        font-family: menlo;
+        background-color: #070928;
+        color: white;
+    }
+    .header1 {
+        padding-left: 100px;
+    }
+    .header2 {
+        padding-left: 150px;
+    }
+    #tophead {
+        font-size: 50px;
+    }
+    .animated-text1 {
+        color: #3456FF;
+        overflow: hidden;
+        height:1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        border-right: 3px solid;
+        animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+        width: 19ch;
+    }
+
+    .wrapper {
+        /*height: 100vh;*/
+        padding-right: 700px;
+        /*This part is important for centering*/
+        display: grid;
+        place-items: center;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0
+        }
+    }
+    
+    @keyframes blink {
+        50% {
+            border-color: transparent
+        }
+    }
+
+    .link1 {
+        padding-left: 180px;
+        display: inline;
+    }
+    .link2 {
+        padding-left: 20px;
+        display: inline;
+    }
+
+    a:link {
+        color: gray;
+        text-decoration: none;
+    }
+    a:hover {
+        color: gray;
+        text-decoration: none;
+    }
+    a:active {
+        color: gray;
+        text-decoration: none;
+    }
+    a:visited {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .langsheader1 {
+        padding-left: 180px;
+    }
+    .lang1 {
+        padding-left: 250px;
+    }
+    .lang2 {
+        padding-left: 250px;
+    }
+    .lang3 {
+        padding-left: 250px;
+    }
+    .lang4 {
+        padding-left: 250px;
+    }
+
+    .projectheader1 {
+        padding-left: 180px;
+    }
+    .project1 {
+        padding-left: 250px;
+    }
+
+</style>
+
+</html>
